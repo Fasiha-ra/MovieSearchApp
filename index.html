@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Movie Search App</title>
+</head>
+<body>
+  <div class="header" id="header">
+    <nav>
+      <img src="image/crown.jpg" alt="" class="logo">
+    </nav> 
+    <div class="header-content">
+      <h1 class="c1">Movies Search App.</h1>
+      <h3 class="c3"> Watch anywhere. Cancel anytime.</h3>
+      <p class="para">Ready to watch? Enter movie title and keyword.</p>
+      <form id="form" class="search-bar">
+        <input type="text" placeholder="Search" name="search" class="search" id="seachMovie">
+        <button type="submit" id="search" class="button" onclick="movieSearch(event)"><span>Get Started</span></button>
+      </form>
+    </div>
+  </div>
+  <div id="features" class="features">
+    <div class="row">
+      <div class="text-col">
+        <h2>Enjoy on your TV.</h2>
+        <p>Watch unlimited movies on smart TVs and Mobile Phones.</p>
+      </div>
+      <div class="img-col">
+        <img src="image/feature-1.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div id="main" classs="main" onclick="on()">
+    <div class="movie">
+    </div>
+  </div>
+  <div class="footer">
+    <p>Copyright 2023 |  Tutorials</p>
+  </div>
+</body>
+  <script src="script.js"></script>
+</html>
